@@ -1,0 +1,17 @@
+coursename: devops
+timing: 7:00 AM
+trainer: raghu
+students:
+ - name: abhimanyu
+   email: abhi@gmail.com
+   ph: 123445
+   interest: 
+   hobbies: games
+   tech: ansible
+
+ - name: guddu
+   email: guddu@gmail.com
+   ph: 123455
+   interest:
+    hobbies: criket
+    tech: python  

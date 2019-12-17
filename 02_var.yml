@@ -1,4 +1,4 @@
-- name: demo for vars on play level
+- name: demo on  vars on play level veriable
   hosts: all
   vars: 
    URL: play.google.com
@@ -7,3 +7,17 @@
       debug: 
       msg: "URL = {{URL}}"
       
+
+
+- name: demo on vars on task level veriable
+  hosts: all
+  tasks: 
+   - name: demo for task level 
+     debug: 
+      msg: "URL = {{URL}}"
+     vars: 
+      URL: task.google.com 
+
+   - name: access variable from previous task 
+     debug: 
+      msg: "URL = {{URL}}"         
