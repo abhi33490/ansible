@@ -21,3 +21,7 @@
    - name: access variable from previous task 
      debug: 
       msg: "URL = {{URL}}"         
+
+
+
+      tower_settings90
