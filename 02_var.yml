@@ -24,4 +24,15 @@
 
 
 
-      tower_settings90
+
+
+- name : variable from prompt 
+  hosts: 
+  vars_prompt:
+    - prompt: ENTER THE URL:- 
+      name: URL
+  tasks: 
+    - name: demo on variable prompt
+      debug: 
+        msg: "URL = {{URL}}"    
+
